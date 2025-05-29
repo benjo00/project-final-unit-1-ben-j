@@ -66,7 +66,7 @@ function Home() {
   <div className = "App"> 
     <div className = "content">
     <div className="home">
-      <h2>The Anti Stress</h2><p>Bringing the Mind Home</p><p>Pick your favored combination of meditation techniques</p>
+      <h2>The Stress Cure</h2><p>Bringing the Mind Home</p><p>Pick your favored combination of meditation techniques</p>
 
       <form>
 

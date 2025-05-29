@@ -3,7 +3,7 @@
 function Header() {
     return (
         <header id = "header">
-           The Anti Stress
+           The Stress Cure
         </header>
     );
 }
