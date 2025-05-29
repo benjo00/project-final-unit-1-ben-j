@@ -1,42 +1,173 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+  body {
+      display: flex;
+      flex-direction: column;
+      
+      
+  
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+
+  #ideas {
+      margin-top: 20px;
+      font-weight: bold;
   }
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  #Ancient {
+      display: flex;
+        
+      width: 100%;
+      align-items: center;
+      flex-direction: column;
+      row-gap: 0px;
+      font-weight:bold;
+      color: brown;
+      flex: 1;
+      box-sizing: border-box;
+     text-shadow: 2px 2px 10px white;
+
   }
-}
 
-.card {
-  padding: 2em;
-}
+  #modern {
+      display: flex;
+      
+      width: 100%;
+      align-items: center;
+      flex-direction: column;
+      row-gap: 20px;
+      font-weight:bold;
+      color: brown;
+      flex: 1;
+      box-sizing: border-box;
+      text-shadow: 2px 2px 10px white;
 
-.read-the-docs {
-  color: #888;
-}
+  }
+
+  #About {
+          display: flex;
+      
+      width: 100%;
+      align-items: center;
+      flex-direction: column;
+      row-gap: 10px;
+      font-size: 30px;
+      color: brown;
+      font-weight: 900;
+      text-shadow: 2px 2px 10px white;
+
+      
+
+  }
+
+  #aboutHeading {
+    font-size: 50px;
+  }
+
+  .home {
+      font-weight: bolder;
+      font-size: 30px;
+      color: brown;
+      text-shadow: 2px 2px 10px white;
+
+    
+  }
+
+
+
+  html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-weight: bolder;
+    font-size: 40px;
+    
+  }
+
+  #links {
+      color: purple;
+      text-decoration: none;
+      text-shadow: 2px 2px 0px black;
+
+  }
+
+  .content {
+    flex: 1;
+  }
+
+  .footer {
+    background: rgb(3, 40, 3);
+    color: white;
+    padding: 1px;
+    text-align: center;
+
+    
+    position: relative; 
+    left: 0;
+    box-sizing: border-box;
+  }
+
+
+
+
+  html {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5e/Nelumbo-nucifera-3-_1200.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+  }
+
+  #mainAppWrap {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+  } 
+
+  .statue {
+    display: flex;
+    flex-direction: row;
+  max-height: 500px;
+  width: auto;
+  }
+
+  .texts {
+    display: flex;
+    flex-direction: row;
+    max-height: 500px;
+    min-height: 500px;
+    width: 350px;
+    margin: 10px;
+  }
+
+  .imagesAbout {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #header {
+    color: brown;
+    text-shadow: 2px 2px 10px white;
+
+  }
+
+  #listModern {
+    color: brown;
+    text-shadow: 2px 2px 10px white;
+    
+
+  }
+
+  #listAncient {
+    color: brown;
+    text-shadow: 2px 2px 10px white;
+
+  }
