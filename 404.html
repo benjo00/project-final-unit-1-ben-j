@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url=./project-final-unit-1-ben-j/" />
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
   </head>
   <body>
+    <p>Redirecting...</p>
+    <script>
+      const redirectTo = location.pathname.replace(/\/+$/, '');
+        // this should redirect the 404 error back to my page and prevent crashing
+      window.location.replace('/project-final-unit-1-ben-j/?redirect=' + encodeURIComponent(redirectTo));
+    </script>
   </body>
 </html>

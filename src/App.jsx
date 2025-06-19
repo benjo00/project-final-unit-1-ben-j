@@ -16,7 +16,9 @@ function App() {
 
   return (
 
-    <Router>
+    <Router basename="/project-final-unit-1-ben-j">
+      {/* tells program to reroute here to prevent 404 crash */}
+
       
     <div className='App'>
       
