@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+  </head>
+  <body>
+    <p>Redirecting...</p>
+    <script>
+      const redirectTo = location.pathname.replace(/\/+\$/, '');
+      window.location.replace('/project-final-unit-1-ben-j/?redirect=' + encodeURIComponent(redirectTo));
+    </script>
+  </body>
+</html>
