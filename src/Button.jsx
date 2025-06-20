@@ -6,4 +6,6 @@ function Button({ onClick, label }) {
   );
 }
 
+// reusable button component per project requirment to have it be used as a child in home.jsx
+
 export default Button;

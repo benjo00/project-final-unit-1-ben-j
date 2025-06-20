@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Button from "./Button";
+// Home.jsx uses Button component as a child to meet project requirement
 
 function Home() {
   const [choiceUserMakes, afterUserSelects] = useState([]);

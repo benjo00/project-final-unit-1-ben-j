@@ -19,3 +19,20 @@
     width: 90%;
   }
 }
+/* added additional css styling for the table which I added to meet project requirements */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  font-size: 0.95rem;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 0.75em;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+}

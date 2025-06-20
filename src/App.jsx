@@ -10,6 +10,7 @@ import Header from './components/Header';
 function App() {
   return (
     <Router basename="/project-final-unit-1-ben-j">
+      {/* had to add this in order to prevent the 404 crash on refresh */}
       <div className='App'>
         <nav id='links'>
           <Link to="/">Home</Link>{ " | " }
