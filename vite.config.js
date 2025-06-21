@@ -9,7 +9,7 @@ import { resolve } from 'path'
 
 
 export default defineConfig({
-  base: '/project-final-unit-1-ben-j/',
+  base: './',
   plugins: [react()],
   build: {
     outDir: 'docs',
