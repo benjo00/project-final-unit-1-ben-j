@@ -1,20 +1,13 @@
 import React, { useState } from "react";
 import TextField from "@mui/material/TextField";
-import MockData from "./MockData.jsx";
-
+import Search from "./Search.jsx";
+// import search component and use here to ensure validation without repeating code to stay DRY
 function Modern() {
   const [inputText, setInputText] = useState("");
 
   const inputHandler = (e) => {
-    setInputText(e.target.value.toLowerCase());
+    setInputText(e.target.value);
   };
-
-  const filteredData = MockData.filter((item) => {
-    if (inputText === "") {
-      return true;
-    }
-    return item.text.toLowerCase().includes(inputText);
-  });
 
   return (
     <div className="content">
@@ -33,13 +26,7 @@ function Modern() {
         </div>
       </div>
 
-      <ul id="listModern">
-        {filteredData.map((item) => (
-          <li key={item.id}>{item.text}</li>
-        ))}
-      </ul>
-
-      
+      <Search input={inputText} />
     </div>
   );
 }
