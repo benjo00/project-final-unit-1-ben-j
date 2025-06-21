@@ -11,7 +11,7 @@ function Search({ input }) {
 // This adds validation as per project requested requirements. Shows "No results found." It also utilizes the trim and tolowercase functionality in order to ensure the search function works regardless of user input outside of these
   return (
     <div>
-      <ul>
+      <ul className="searchResults">
         {filteredData.length > 0 ? (
           filteredData.map((item) => (
             <li key={item.id}>{item.text}</li>

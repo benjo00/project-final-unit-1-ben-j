@@ -207,3 +207,8 @@ th {
 
   }
 
+.searchResults {
+  color: brown;
+  text-shadow: 2px 2px 10px white;
+}
+/* importing search caused the css to fail because it was no longer applied to ancient and modern text search results. This css fixes that by adding a new css style to it specifically */
