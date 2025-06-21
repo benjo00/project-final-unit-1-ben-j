@@ -3,7 +3,7 @@ import Home from './components/home'
 import Modern from './components/modern'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Ancient from './components/Ancient';
-import About from './components/about';
+import About from './components/About';
 import Footer from './components/footer';
 import Header from './components/Header';
 
