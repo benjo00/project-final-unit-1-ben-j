@@ -11,4 +11,4 @@ Currently, two official plugins are available:
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
-Resubmit work done. Pushing to main. Site deploys from branch "resubmit" but all branches are up to date now.
+Resubmit work done. Pushing to main. Site deploys from branch "resubmit" because I was working from that branch to ensure I had a backup on main in case something went wrong, but all branches are up to date now.
